@@ -8,8 +8,8 @@
     --secondary-500: #47795a;
     --secondary-800: #20603d;
     --border-color: white;
-    --ff-body: Inter, sans-serif, 200;
-    --ff-title: "PT Mono ", monospace;
+    --ff-body: "Helvetica", sans-serif;
+    --ff-title: "Helvetica", sans-serif;
 }
 
 * {
@@ -37,13 +37,25 @@ h3,
 a,
 p,
 span {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-weight: 400;
     color: var(--primary-100);
+    font-family: (--ff-body);
+}
+
+h2 {
+    font-family: var(--ff-title);
+    font-weight: 800;
+    font-size: 4rem;
+    padding-left: 2rem;
+}
+
+p {
+    font-family: var(--ff-body);
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
+    font-family: (--ff-body);
 }
 
 nav>.nav-section {
@@ -53,6 +65,7 @@ nav>.nav-section {
     border-left: 2px solid var(--border-color);
     align-items: center;
     justify-content: center;
+    font-family: Helvetica, sans-serif;
 }
 
 nav>.nav-section :hover {
@@ -139,12 +152,12 @@ main>article>.article-section {
 
 main>article>.article-description-section,
 main>article>.article-nav-section {
-    border-left: 1px solid var(--border-color);
+    border-left: 2px solid var(--border-color);
 }
 
 main>article>.article-title-section,
 main>article>.article-nav-section {
-    border-top: 1px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
 }
 
 main>article>.article-image-section {
@@ -206,6 +219,10 @@ main>article>.article-nav-section>.article-nav-button {
     font-size: 3rem;
     cursor: pointer;
     color: var(--primary-100);
+}
+
+main>article>.article-nav-section>.left-button {
+    border-right: 2px solid var(--border-color);
 }
 
 main>article>.article-nav-section>.article-nav-button:hover {
