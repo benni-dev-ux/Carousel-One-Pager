@@ -169,6 +169,7 @@ main>article>.article-image-section>img {
 main>article>.article-title-section {
     align-items: center;
     justify-content: space-between;
+    line-height: 3.8rem;
 }
 
 main>article>.article-title-section>h2 {
