@@ -205,15 +205,15 @@ main>article>.article-image-section {
 }
 
 main>article:first-child>.article-image-section {
-    background-image: url("/assets/1.jpg");
+    background-image: url("https://benni-dev-ux.github.io/Carousel-One-Pager/assets/1.jpg");
 }
 
 main>article:nth-child(2)>.article-image-section {
-    background-image: url("/assets/2.jpg");
+    background-image: url("https://benni-dev-ux.github.io/Carousel-One-Pager/assets/2.jpg");
 }
 
 main>article:nth-child(3)>.article-image-section {
-    background-image: url("/assets/3.jpg");
+    background-image: url("https://benni-dev-ux.github.io/Carousel-One-Pager/assets/3.jpg");
 }
 
 main>article>.article-nav-section>.article-nav-button {
