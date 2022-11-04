@@ -1,5 +1,5 @@
 :root {
-    --background: #111111;
+    --background: #0d0d0d;
     --primary-100: #e9e9e9;
     --primary-300: #d3d3d3;
     --primary-500: #a9a9a9;
@@ -9,7 +9,7 @@
     --secondary-800: #20603d;
     --border-color: white;
     --ff-body: "Helvetica", sans-serif;
-    --ff-title: "Helvetica", sans-serif;
+    --ff-title: "Montserrat", sans-serif;
 }
 
 * {
@@ -28,7 +28,7 @@ body {
 nav {
     display: flex;
     width: 100%;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
 }
 
 h1,
@@ -41,16 +41,10 @@ span {
     font-family: (--ff-body);
 }
 
-h2 {
-    font-family: var(--ff-title);
-    font-weight: 800;
-    font-size: 4rem;
-    padding-left: 2rem;
-}
-
 p {
     font-family: var(--ff-body);
     font-weight: 400;
+    color: var(--primary-500);
 }
 
 a {
@@ -66,6 +60,7 @@ nav>.nav-section {
     align-items: center;
     justify-content: center;
     font-family: Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 nav>.nav-section :hover {
@@ -86,6 +81,7 @@ nav>.nav-section :hover {
 
 #nav-social-section {
     gap: 3rem;
+    font-size: 1.8rem;
 }
 
 #nav-logo-section,
@@ -173,6 +169,14 @@ main>article>.article-image-section>img {
 main>article>.article-title-section {
     align-items: center;
     justify-content: space-between;
+}
+
+main>article>.article-title-section>h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    padding-left: 2rem;
+    max-width: 40rem;
 }
 
 main>article>.article-image-section {
