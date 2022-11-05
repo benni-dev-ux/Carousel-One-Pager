@@ -80,6 +80,12 @@ nav>nav>.nav-section :hover {
     gap: 6rem;
 }
 
+#nav-logo-section>a>i:hover,
+#nav-contact-section>a:hover,
+#nav-link-section>a:hover {
+    color: var(--primary-800);
+}
+
 #nav-social-section {
     gap: 3rem;
     font-size: 1.8rem;
